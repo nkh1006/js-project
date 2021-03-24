@@ -1,0 +1,25 @@
+ul {
+    padding: 15px;
+    margin: 30px 15px 15px;
+    position: relative;
+    height: 50px;
+}
+
+li {
+    position: absolute;
+    display: none;
+    width: 100%;
+    top:0;
+    left: 0;
+    padding: .75rem 1.25rem;
+    margin: 0;
+    background-color: #fff;
+    border: 1px solid rgba(0,0,0,.125);    
+    transition: .3s all;
+    list-style: none;
+}
+
+li.active {
+    display: block;
+}
+
